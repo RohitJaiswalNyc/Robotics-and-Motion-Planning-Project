@@ -34,6 +34,8 @@ After installing dependencies and downloading meshes, you can run the following 
 ## Run the Simulation
 > python submission.py
 
+If you want to run multiple simulations, change **max_iter** variable value in submission.py.
+
 
 
 ## Project Structure
