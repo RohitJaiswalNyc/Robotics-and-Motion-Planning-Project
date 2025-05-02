@@ -5,11 +5,6 @@ Mesh files are large and not version-controlled. You can download them [here](ht
 You also need to install the [PyBullet](https://pybullet.org/wordpress/) simulator.
 
 
-<h2> How to Run: </h2>
-Once PyBullet is installed and the meshes are extracted in the correct location, you can visualize the simulation environment. Run this command from within the top-level folder of the repository:<br\> <br\>
-
-> python simulation.py
-
 # s25rmp: Task and Motion Planning for Robotic Box Placement
 
 ## Overview
@@ -37,11 +32,9 @@ Ensure the following are installed:
 After installing dependencies and downloading meshes, you can run the following scripts:
 
 ## Run the Simulation
-> python simulation.py
+> python submission.py
 
-## Run Example Script
-> python example.py
-This script showcases basic functionality, such as individual forward/inverse kinematics calls and constraint validation.
+
 
 ## Project Structure
 
@@ -64,17 +57,12 @@ s25rmp-main/
 ## Result Visualizations
 The following figures represent the performance of the motion planner:
 
-accuracy.png <br/>
-Distribution of task success rates over 30 simulations.
+![accuracy](accuracy.png)  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Distribution of task success rates over 30 simulations.
 
-Location_Error.png <br/>
-Histogram of position errors between goal and placed box locations.
+![Simulation](accuracy.png)  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Simulation
 
-Orientation_Error.png <br/>
-Histogram of orientation discrepancies (e.g., quaternion distance).
-
-grad.png <br/>
-Gradient magnitudes during optimization—used for debugging IK convergence.
 
 ## Notes
 The robot used is the Poppy Ergo Jr, simulated via a custom URDF.
