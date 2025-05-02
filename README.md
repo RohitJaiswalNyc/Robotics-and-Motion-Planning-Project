@@ -60,8 +60,8 @@ The following figures represent the performance of the motion planner:
 ![accuracy](accuracy.png)  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Distribution of task success rates over 30 simulations.
 
-![Simulation](accuracy.png)  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Simulation
+![Simulation](Simulation.jpg)  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Simulation snapshot showing stages of the block rearrangement process
 
 
 ## Notes
